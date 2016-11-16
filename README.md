@@ -18,7 +18,7 @@ spring:
 
 Run scripts by POST-ing them to `http://localhost:8080/scripts/exec`, for example:
 
-```javascript```
+```javascript
 \\ timer times the execution of a function
 let ids = timer("Wrote 10000 rows").run(() => {
   \\ parallel runs a function a given number of times, distributing the work across a given number of threads
@@ -39,6 +39,8 @@ let ids = timer("Wrote 10000 rows").run(() => {
   });
 });
 ```
+
+Because the Nashorn ScriptEngine doesn't provide ES6 features yet, scripts are transpiled with Babel before execution.
 
 Script fragments can be stored by PUT-ing them to `/scripts/{script-name}`, and pulled into other scripts with `include("script=name");`.
 
