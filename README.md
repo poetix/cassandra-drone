@@ -1,4 +1,4 @@
-A utility for running test scripts inside a cloud environment where there's a Cassandra cluster you want to talk to.
+A utility for running test scripts (written in Javascript) inside a cloud environment where there's a Cassandra cluster you want to talk to.
 
 __Obviously, don't expose this in production__.
 
