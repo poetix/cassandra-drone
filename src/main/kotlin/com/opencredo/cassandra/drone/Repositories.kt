@@ -1,4 +1,4 @@
-package com.opencredo.cassandra.tester
+package com.opencredo.cassandra.drone
 
 import org.mapdb.DB
 import org.mapdb.Serializer

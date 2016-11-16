@@ -1,4 +1,4 @@
-package com.opencredo.cassandra.tester
+package com.opencredo.cassandra.drone
 
 import org.mapdb.DB
 import org.mapdb.DBMaker
@@ -14,6 +14,7 @@ open class Application {
 
 }
 
-fun main(args: Array<String>): Unit {
-    SpringApplication.run(Application::class.java, *args);
+fun main(args: Array<String>) {
+    SpringApplication.run(Application::class.java, *args)
 }
+

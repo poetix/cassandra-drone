@@ -1,4 +1,4 @@
-package com.opencredo.cassandra.tester
+package com.opencredo.cassandra.drone
 
 import com.datastax.driver.core.utils.UUIDs
 import org.springframework.beans.factory.annotation.Autowired

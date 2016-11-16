@@ -1,4 +1,4 @@
-package com.opencredo.cassandra.tester
+package com.opencredo.cassandra.drone
 
 import org.springframework.beans.factory.annotation.Autowired
 import org.springframework.http.HttpStatus
